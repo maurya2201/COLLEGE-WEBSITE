@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h1{
+    background-color: black;
+    color: red;
+}
+.button {
+    background-color:red;
+    border: none;
+    color:whitesmoke;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+<body background="FP.png">
+<img src="logo.jpg">
+<h1>ONLINE COURSES ENROLLMENT FORM</h1>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">YOUR FULL NAME</label>
+    <input type="text" id="name" name="name" placeholder="YOUR name..">
+<label for="lname">YOUR EMAIL</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+<label for="country">COURSE NAME</label>
+    <select id="course name" name="course name">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JAVASCRIPT</option>
+      <option value="nodejs">NODEJS</option>
+      <option value="android development">ANDROID DEVELOPMENT</option>
+      <option value="SQL">SQL</option>
+      <option value="PHP">PHP</option>
+      <option value="C#">C SHARP</option>
+      <option value="AWS">AWS</option>
+      <option value="KOTLIN">KOTLIN</option>
+</select>
+<center><a href=""class="button">SUBMIT</a></center>
+</form>
+</div>
+</body>
+</html>
